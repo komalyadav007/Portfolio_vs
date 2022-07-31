@@ -1,0 +1,177 @@
+/* Global properties */
+body {
+	
+
+	
+background-image: linear-gradient(to  right, #b4234f93 0%, rgb(91, 91, 146)); 
+ 
+ background-color: 	rgba(255, 0, 0, 0.103);
+ 
+
+	/* Body Css */
+	/* background-color: #ecebd7; */
+	font-family: 'Arvo', serif;
+}
+
+/* Main Heading Font */
+.m-heading {
+	font-family: "Jazz LET", fantasy;
+	color:#17122c;
+}
+
+
+
+/* Brown Color Text */
+.plain-text {
+	color: rgb(0, 0, 0);
+}
+
+.row{
+	display:flex;
+	justify-content: space-between;
+	/* //width:50%; */
+	padding:5px;
+	align-items:center;
+}
+
+/* computer-img */
+.img-fluid{
+/* height: 567px; */
+	width:100%;
+	justify-content: flex-start;
+}
+
+/* Navigation */
+.navigation-link {
+	border: 4px solid transparent;
+	color:black;
+}
+.navigation-link:hover {
+	color: rgb(184, 228, 230);
+	text-decoration: none;
+	/* border-bottom: 4px solid rgb(184, 228, 230); */
+	transition: 0.8s ease;
+}
+
+/* aspiring web content */
+/* .text-warning-m-heading{
+	color: #f1e74e;
+} */
+
+/* Main Container Height */
+.main-container {
+	min-height: 100vh;
+	padding: 1rem;
+}
+
+/* Aligning items to main row */
+.main_row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Setting main row items */
+.main_row h1 {
+	font-size: 4rem;
+}
+.main_row h2 {
+	font-size: 2.5rem;
+}
+.main_row img {
+	width: auto;
+	height: 100vh;
+}
+
+/* Setting about css */
+.self_name {
+	font-size: 2.1rem;
+}
+#about{
+	background-image: linear-gradient(to top left, #7a515f 0%, white); 
+}
+.about_me {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/* skill css */
+.skill{
+	/* border: 2px solid white; */
+	background-color: white;
+	margin: 20px 0;
+	color: white;
+}
+/* .skill:hover{
+	border: 2px solid black;
+	border-radius: 1.5rem;
+} */
+.s1,.s2,.s3,.s4{
+	background-color: #292325 ;
+	
+}
+.s1{
+	width: 65%;
+}
+.s2{
+	width: 50%;
+}
+.s3{
+	width: 80%;
+}
+.s4{
+	width: 88%;
+}
+.s1:hover{
+	font-size: large;
+	transition: 0.6s ease;
+
+}
+.s2:hover{
+	font-size: large;
+	transition: 0.6s ease;
+
+}
+.s3:hover{
+	font-size: large;
+	transition: 0.6s ease;
+
+}
+.s4:hover{
+	font-size: large;
+	transition: 0.6s ease;
+
+}
+/* Setting card border */
+.card {
+	border-bottom: 12px solid #7a515f;
+}
+.btn{
+	background-color: #7a515f;
+}
+
+#projects .row {
+	display:flex;
+	justify-content: space-between;
+	margin:10px 50px;
+}
+
+/* Setting css of media links */
+.media_link {
+	padding: 0.2rem;
+	max-width: 15rem;
+	margin-right: 18%;
+	font-size: 0.7rem;
+	border: 3px solid #365347;
+	border-radius: 0.5rem;
+}
+.media_link h3 {
+	font-size: 1.3rem;
+}
+.media_link:hover {
+	border: 3px solid rgb(85, 59, 59);
+	border-radius: 1.5rem;
+	transition: 0.4s ease;
+}
+
+
